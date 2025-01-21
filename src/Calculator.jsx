@@ -7,7 +7,7 @@ const Calculator = () => {
 
   useEffect(() => {
     if (state.result !== "") {
-      setCounter((prev) => prev + 1);
+      setCounter((count) => count + 1);
     }
   }, [state.result]);
 
